@@ -1,11 +1,11 @@
-t = "Алгоритм поиска Кнута Мориса Прата"
+tq = "Алгоритм поиска Кнута Мориса Прата"
 
-p = [0]*len(t)
+p = [0]*len(tq)
 j = 0
 i = 1
 
-while i < len(t):
-    if t[j] == t[i]:
+while i < len(tq):
+    if tq[j] == tq[i]:
         p[i] = j+1
         i += 1
         j += 1
@@ -25,7 +25,7 @@ n = len(a)
 i = 0
 j = 0
 while i < n:
-    if a[i] == t[j]:
+    if a[i] == tq[j]:
         i += 1
         j += 1
         if j == m:
