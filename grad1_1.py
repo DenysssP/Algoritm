@@ -1,6 +1,8 @@
 import time
-import numpy as np
+
 import matplotlib.pyplot as plt
+import numpy as np
+
 
 def f(x):
     return x*x - 5*x + 5

@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 N = 30         # число наблюдений
 dNoise = 0.01     # дисперсия шума

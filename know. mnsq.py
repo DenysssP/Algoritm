@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 N = 100     # число экспериментов
 sigma = 3   # стандартное отклонение наблюдаемых значений
